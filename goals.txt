@@ -1,0 +1,15 @@
+v0.10 	- Comparator routines/tests
+			- no prefix compare
+			- prefix compare
+			- Can rules be broken into two???
+		- First rule set building - Biggest rule first, jump matched bytes
+		- Rule tuning(positive) - compare rulesets???
+		- Rule culling(negative)
+		- Programmatic API
+
+v0.20	- Yara rule generation
+		- CLI
+		- prolog module support
+		
+v0.30	- Fix the enormous amount of bugs you have no doubt produced
+		- Base prolog modules

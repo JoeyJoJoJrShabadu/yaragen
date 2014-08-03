@@ -1,0 +1,9 @@
+yaragen - Automatic rule generator for Yara signatures
+********************************
+
+yaragen simplifies the rule writing process for Yara by providing automatic 
+generation of rules.
+
+yaragen will find a set of the largest rules possible that match a given set
+of positive buffers, and do not match a set of negative buffers.
+
