@@ -1,6 +1,7 @@
-from compare import Compare
-from yaragen import YaraGenerator
-
+"""
+Only leaving this here for some base code for James to get started on
+even though I think using this as a base is a terrible idea....
+"""
 
 class RuleGenerator:
     """Compare binaries to generate rules

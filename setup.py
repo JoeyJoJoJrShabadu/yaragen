@@ -7,8 +7,8 @@ requires = []
 
 setup(
     name="yaragen",
-    version='0.1.0',
-    py_modules=['yaragen', 'yaragen.rules'],
+    version='0.1.1',
+    packages=['yaragen', 'yaragen.rulegens'],
     author="Adrian Maniatis",
     author_email="kwyjii@gmail.com",
     url="https://github.com/JoeyJoJoJrShabadu/yaragen",

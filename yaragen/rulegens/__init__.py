@@ -1,5 +1,5 @@
 from abc import ABCMeta
-
+from abc import abstractmethod
 
 class BaseGen():
     """The :py:class:`BaseGen` class is an abstract class defining the basic
@@ -113,7 +113,7 @@ class BinaryGen(BaseGen):
         :type buff1: str
         :param buff2: The second buffer to compare
         :type buff2: str
-        :rtype: tuple, (list of rules, rangedict - {range, ruletypes})
+        :rtype: tuple, (list of rules)
         """
         return
 
@@ -129,7 +129,7 @@ class BinaryGen(BaseGen):
         :type rules: List
         :param blacklisted: Is the current buffer in the blacklist
         :type blacklisted: bool  
-        :rtype: tuple, (list of rules, rangedict - {range, ruletypes})
+        :rtype: tuple, (list of rules)
         """
         return
 
