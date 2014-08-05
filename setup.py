@@ -3,7 +3,7 @@ from setuptools import setup
 import re
 import sys
 
-requires = []
+requires = ['yara', 'begins']
 
 setup(
     name="yaragen",
